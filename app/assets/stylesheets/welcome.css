@@ -18,22 +18,14 @@
 
 nav {
 	background: #e74c3c; /* add a fallback color of #d6d6d6 */
-	color: white;
+	color: #ecf0f1;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.7; /* line-height is unit-less */
 	font-size: 100%;
 }
 
-h3 {
-	font-size: 45px;
-	align: center;
-}
-
-blockquote {
-	border-left: 5px #BBB solid;
-	padding-left: 10px;
-	margin-left: 0;
-	font-style: italic;
+body{
+	background: #ecf0f1;
 }
 
 a {
@@ -61,29 +53,6 @@ a {
 	margin-right: 10px;
 	font-size: 12px;
 }
-/*----------------------------------------------------------------------------- 
-03=MAIN  
------------------------------------------------------------------------------*/
-
-.tagline {
-	margin-top: -30px;
-	margin-bottom: 30px;
-}
-
-.post {
-	margin-bottom: 50px;
-}
-
-.post-meta {
-color: #999;
-padding: 10px 0px;
-border-top: #BBB solid 1px;
-}
-
-.widget {
-	margin-bottom: 45px;
-}
-
 
 /*----------------------------------------------------------------------------- 
 04=NAV  
