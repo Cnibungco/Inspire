@@ -1,18 +1,6 @@
-/*
-/ * This is a manifest file that'll be compiled into application.css, which will include all the files
-/ * listed below.
-/ *
-/ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
-/* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
-/ *
-/ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
-/ * compiled file so the styles you add here take precedence over styles defined in any styles
-/ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
-/ * file per style scope.
-/ *
- /*= require_tree .
- /*= require_self
- /*/
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
 /*----------------------------------------------------------------------------- 
 01=BASE   
 -----------------------------------------------------------------------------*/
@@ -28,23 +16,17 @@
 	clear: both;
 }
 
-body {
-	background: gray; /* add a fallback color of #d6d6d6 */
-	color: #000000;
+nav {
+	background: #e74c3c; /* add a fallback color of #d6d6d6 */
+	color: white;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.7; /* line-height is unit-less */
 	font-size: 100%;
 }
 
-h1 {
-	letter-spacing: -5px;
-	font-size: 55px;
-	margin-bottom: 10px;
-}
-
-h2 {
-	font-size: 32px;
-	margin: 0;
+h3 {
+	font-size: 45px;
+	align: center;
 }
 
 blockquote {
@@ -108,7 +90,7 @@ border-top: #BBB solid 1px;
 -----------------------------------------------------------------------------*/
 
 .nav-container {
-	background: #ff3300;
+	background: ;
 }
 
 nav ul {
