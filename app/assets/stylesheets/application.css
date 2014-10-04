@@ -36,15 +36,28 @@ body {
 	font-size: 100%;
 }
 
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
 h1 {
 	letter-spacing: 5px;
 	font-size: 55px;
 	margin-bottom: 10px;
-}
-
-h2 {
-	font-size: 32px;
-	margin: 0;
 }
 
 blockquote {
@@ -79,29 +92,6 @@ a {
 	margin-right: 10px;
 	font-size: 12px;
 }
-/*----------------------------------------------------------------------------- 
-03=MAIN  
------------------------------------------------------------------------------*/
-
-.tagline {
-	margin-top: -30px;
-	margin-bottom: 30px;
-}
-
-.post {
-	margin-bottom: 50px;
-}
-
-.post-meta {
-color: #999;
-padding: 10px 0px;
-border-top: #BBB solid 1px;
-}
-
-.widget {
-	margin-bottom: 45px;
-}
-
 
 /*----------------------------------------------------------------------------- 
 04=NAV  
@@ -109,6 +99,8 @@ border-top: #BBB solid 1px;
 
 .nav-container {
 	background: #ff3300;
+	width: 1000px;
+	height: 50px;
 }
 
 nav ul {
@@ -118,16 +110,16 @@ nav ul {
 nav ul li {
 	float: left;
 	list-style: none;
-	font-size: 20px;
-}
-
-nav ul li a {
+	font-size: 18px;
 	color: #FFF;
-	margin: 16px;
-	padding: 16px;
-	display: block;
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
 }
 nav ul li a:hover {
 	color: #000;
 	transition: color 0.3s ease-in;
+}
+footer{
+	margin-top: 50px;
 }
