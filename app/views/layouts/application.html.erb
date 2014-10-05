@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Inspire Me</title>
-    <%= stylesheet_link_tag 'application' %>
+    <%= stylesheet_link_tag :application %>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -16,13 +16,16 @@
   </head>
 
   <body>
-
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
     <div class="container">
 
       <header>
         <h3 class="text-muted">Inspire Me</h3>
       </header>
-      <div class="nav container">
+      <div class="nav-container">
         <nav class="container">
         <ul>
           <li class="active"><a href="#">Home</a></li>
@@ -40,7 +43,7 @@
       <div class="container">
         <h1>Need Inspiration?</h1>
         <p class="lead">Sign up for Inspire Me, the first social assistance site for people who need any kind of inspiration!</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get inspired today</a></p>
+        <p>Get inspired today</p>
       </div>
 
        <!-- Site footer -->
