@@ -22,7 +22,7 @@ header{
 }
 
 #top, #bottom, #left, #right {
-	background: #a5ebff;
+	background: #3498db;
 	position: fixed;
 	}
 	#left, #right {
@@ -40,8 +40,8 @@ header{
 		#bottom { bottom: 0; }
 
 nav {
-	background: #e74c3c; /* add a fallback color of #d6d6d6 */
-	color: #ecf0f1;
+	background:; /* add a fallback color of #d6d6d6 */
+	color:;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.7; /* line-height is unit-less */
 	font-size: 100%;

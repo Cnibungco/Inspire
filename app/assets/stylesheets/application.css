@@ -60,13 +60,6 @@ h1 {
 	margin-bottom: 10px;
 }
 
-blockquote {
-	border-left: 5px #BBB solid;
-	padding-left: 10px;
-	margin-left: 0;
-	font-style: italic;
-}
-
 a {
 	color: #ff3300;
 	text-decoration: none;
@@ -81,7 +74,10 @@ a {
 
 .container {
 	margin: 0 auto 0 auto;
-	width: 950px;
+	text-align: center;
+	border-radius: 10px;
+	background: ;
+
 }
 
 .main {
@@ -100,7 +96,7 @@ a {
 .nav-container {
 	background: #ff3300;
 	width: 1000px;
-	height: 50px;
+
 }
 
 nav ul {
@@ -112,14 +108,15 @@ nav ul li {
 	list-style: none;
 	font-size: 18px;
 	color: #FFF;
-	margin: 10px;
-	padding: 5px;
+	margin: -15px;
+	padding: 0px;
 	display: inline-block;
 }
 nav ul li a:hover {
 	color: #000;
 	transition: color 0.3s ease-in;
 }
+
 footer{
 	margin-top: 50px;
 }
