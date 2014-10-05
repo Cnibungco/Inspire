@@ -40,8 +40,7 @@ header{
 		#bottom { bottom: 0; }
 
 nav {
-	background:; /* add a fallback color of #d6d6d6 */
-	color:;
+	background:#e74c3c; /* add a fallback color of #d6d6d6 */
 	font-family: 'Lato', sans-serif;
 	line-height: 1.7; /* line-height is unit-less */
 	font-size: 100%;
@@ -49,7 +48,6 @@ nav {
 
 body{
 	background: #ecf0f1;
-	border: 10px, black, solid;
 }
 
 a {
@@ -66,17 +64,23 @@ a {
 
 .container {
 	margin: 0 auto 0 auto;
-	width: 950px;
+	width:900px;
 	align:center;
 }
 
-.main {
-	width: 600px;
+.box1 {
+	width: 850px;
 	float: left;
 	background: #FFF;
 	padding: 25px;
 	margin-right: 10px;
-	font-size: 12px;
+	font-size: 20px;
+	text-align:center;
+	font-family:'Lato';
+}
+.box1 p a:hover{
+	color:#000;
+	transition:color 0.3s ease-in;
 }
 
 /*----------------------------------------------------------------------------- 
@@ -100,14 +104,17 @@ nav ul li {
 nav ul li a {
 	color: #FFF;
 	margin: 16px;
-	padding: 16px;
+	padding: -15px;
 	display: block;
 }
 nav ul li a:hover {
 	color: #000;
 	transition: color 0.3s ease-in;
 }
-footer{
-	margin-top:50px;
-}
 
+footer p{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+	font-family:sans-serif;
+}

@@ -20,10 +20,11 @@
 <div id="right"></div>
 <div id="top"></div>
 <div id="bottom"></div>
+    
     <div class="container">
 
       <header>
-        <h3 class="text-muted">Inspire Me</h3>
+       <h3> Inspire Me </h3>
       </header>
       <div class="nav-container">
         <nav class="container">
@@ -32,19 +33,29 @@
           <li><a href="#">Art</a></li>
           <li><a href="#">Music</a></li>
           <li><a href="#">Writing</a></li>
+          <li><a href="#">Development</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
         </ul>
         <div class="clear"></div>
       </nav>
       </div>
 
       <!-- Jumbotron -->
-      <div class="container">
+      <div class="box1">
         <h1>Need Inspiration?</h1>
         <p class="lead">Sign up for Inspire Me, the first social assistance site for people who need any kind of inspiration!</p>
-        <p><a href="#">Get inspired today</a></p>
+        <p><a href="#">Get inspired today!</a></p>
       </div>
+
+      <p class="navbar-text pull-right">
+<% if user_signed_in? %>
+  Logged in as <strong><%= current_user.email %></strong>.
+  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+<% else %>
+  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+<% end %>
 
        <!-- Site footer -->
       <div class="footer">
